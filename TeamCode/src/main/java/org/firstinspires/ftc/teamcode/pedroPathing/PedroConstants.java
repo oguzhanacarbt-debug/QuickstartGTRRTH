@@ -29,6 +29,7 @@ public class PedroConstants {
             .headingPIDFCoefficients(new PIDFCoefficients(0.75,0,0.032,0.017))
             .secondaryHeadingPIDFCoefficients(new PIDFCoefficients(1.59,0,0.05,0.01))
             .translationalPIDFCoefficients(new PIDFCoefficients(0.46,0,0.0095,0.008))
+            .centripetalScaling(0.005)
             .secondaryTranslationalPIDFCoefficients(new PIDFCoefficients(1,0,0.032,0.012))
             .mass(16.2);
 
