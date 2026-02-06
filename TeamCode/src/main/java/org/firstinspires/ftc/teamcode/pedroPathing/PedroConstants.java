@@ -28,9 +28,9 @@ public class PedroConstants {
             .secondaryDrivePIDFCoefficients(new FilteredPIDFCoefficients(0.0235,0,0.001089,0.6,0.001))
             .headingPIDFCoefficients(new PIDFCoefficients(0.75,0,0.032,0.017))
             .secondaryHeadingPIDFCoefficients(new PIDFCoefficients(1.59,0,0.05,0.01))
-            .translationalPIDFCoefficients(new PIDFCoefficients(0.46,0,0.0095,0.008))
+            .translationalPIDFCoefficients(new PIDFCoefficients(0.09,0,0.01,0.008))
             .centripetalScaling(0.005)
-            .secondaryTranslationalPIDFCoefficients(new PIDFCoefficients(1,0,0.032,0.012))
+            .secondaryTranslationalPIDFCoefficients(new PIDFCoefficients(0.74,0,0.04,0.012))
             .mass(16.2);
 
     // ---------------- DRIVE (FIXED) ----------------
@@ -57,7 +57,7 @@ public class PedroConstants {
                     0.12,   // translational
                     0.9,    // heading
                     2.0,    // timeout
-                    9.7,    // braking
+                    0.7,    // braking
                     200,    // search limit
                     0.8     // braking start
             );
